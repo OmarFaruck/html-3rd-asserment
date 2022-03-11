@@ -1,0 +1,796 @@
+  *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+  }
+
+  .Product{
+    margin-top: -20px;
+    margin-left: 50px;
+    position: relative;
+  }
+  .Product a {  
+    text-decoration: none;  
+    font-size: 15px;
+    } 
+  .Product:hover{
+    background: #E8E9EA;
+    width: 200px;
+    height: 40px;
+     padding-top: 10px; 
+    text-align: center;
+     border-radius: 20px;
+  }
+  .fa{
+    margin-right: 10px;
+  }
+  .Now{
+    position: absolute;
+    margin-left: 1200px;
+    margin-top: -30px;
+    padding: 12px;
+    font-size: 15px;
+    border-radius: 10px;
+    color: #fff;
+    background-color: #dc392d;
+    text-align: center;
+    border: 1px solid transparent;
+    
+   
+  } 
+ 
+  .hr{
+   margin-top: 35px;
+   background-color: #BB3026  !important;
+   padding: 2px;
+   width: 100%;
+   height: 0px;
+   display: block;
+
+  } 
+
+body{  
+margin-top: 40px;  
+background-size: cover;   
+ font-family: sans-serif;  
+}
+
+a{
+    text-decoration: none;
+}
+
+ header {  
+    padding-right: 150px;
+    padding-left: 250px;
+    margin-top: 50px;  
+    position: fixed;   
+    top: 5px;  
+    height: 30px;  
+    display: flex;  
+    align-items: center;  
+    } 
+    .nab{
+      width: 100%;
+      height: 100%;
+    }
+    .SB{
+     font-size: 22px;
+     margin-left: 120px;
+     margin-top: 20px;
+     font-weight: bolder;
+     color: #0061F2;
+   } 
+  
+    header * {  
+        
+        display: inline;  
+        margin-top: 40px;
+        margin-left: 40px;
+        }  
+        header li {  
+            
+        /* margin: 20px;  */
+        margin-left: 10px;
+        font-size: 20px; 
+         color: black; 
+        }  
+        header li a {  
+            
+        color: rgba(0, 0, 0, 0.794);  
+        text-decoration: none;  
+        }   
+        header li a:hover {  
+            color: rgb(0, 0, 0);  
+             text-decoration: none;  
+            }  
+            .fa{
+              margin-left: 10px;
+            }
+            .buy{
+              background-color:#0061f2;
+              color: #fff;
+              padding: .875rem 1.125rem;
+              align-items: center;
+              border: none;
+              display: inline-flex;
+              font-size: 16px;
+              border-radius: .35rem;
+              margin-left: 1100px;
+              margin-top: -50px;
+            }
+            .your{
+              margin-left: 70px;
+              color: #363D47;
+              font-size: 45px;
+              margin-top: 50px;
+              font-family: Metropolis,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif;
+            }
+            .Welcome{
+              margin-left: 70px;
+              color: #69707A;
+              font-size: 28px;
+              font-family: Metropolis,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif;
+            }
+            .img1{
+              width: 610px;
+              margin-left: 800px;
+              margin-top: -380px;
+            }
+            .Cust{
+              text-align: center;
+              background: #DAE7FB;
+              padding: 15px;
+              margin-left: 650px;
+              border-radius: 50px;
+              margin-top: -20px;
+              color: #0061f2;
+              white-space: nowrap;
+            }
+            .View2{
+              background-color:#0061f2;
+              color: #fff;
+              text-decoration: none;
+              border-color: #004ec2;
+              justify-content: center;
+              padding: 1.456rem 2.125rem;
+              align-items: center;
+              border: none;
+              display: inline-flex;
+              align-items: center;
+              font-size: 16px;
+              border-radius: .85rem;
+              margin-left: 70px;
+              margin-top: 10px;
+              margin-top: 20px;
+            }
+            .Documentation{
+              background-color:#E0EBFC;
+              color: #4261F2;
+              text-decoration: none;
+              border-color: #004ec2;
+              justify-content: center;
+              padding: 1.456rem 2.125rem;
+              align-items: center;
+              border: none;
+              display: inline-flex;
+              align-items: center;
+              font-size: 16px;
+              border-radius: .85rem;
+              margin-left: 20px;
+              margin-top: 20px;
+            }
+            .demo12{
+              width: 100%;
+              height: 100%;
+
+              background-color: #F2F6FC;
+            }
+            .Demos{
+                text-align: center;
+                background: #DAE7FB;
+                color: #0061F2;
+                padding: 12px;
+                width: 140px;
+                margin-left: 630px;
+                margin-top: 20px;
+                border-radius: 30px;
+            }
+            .Landing{
+              text-align: center;
+              margin-top: 25px;
+              color: #69707C;
+              font-size: 35px;
+              font-family: Metropolis,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif,Apple Color Emoji;
+            }
+            .When{
+              text-align: center;
+              font-size: 25px;
+              color: #69707C;
+              font-size: 25px;
+              margin-top: 20px;
+              font-family: Metropolis,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif;
+            }
+            .sec2{
+              background-color: #f2f6fc;
+              overflow:hidden;
+              width:100%;
+              margin-left: 20px;
+            }
+            .Landing1{
+              margin-top: 20px; 
+               color: #69707C;
+               margin-right: 30px;
+            }
+            .you{
+              margin-top: 40px;
+              font-size: 55px;
+              font-weight: italic;
+              color: #69707C;
+            }
+            .sec2 h2{
+              font-size:1.4rem;
+              font-family:arial;
+              text-align: center;
+            }
+            .sec2 p{
+              font-size: 1.1rem;
+              font-weight: 400;	
+              font-family:arial;
+              text-align: center;
+              padding: 5px 220px;
+
+            }
+            .card{
+              width: 25.33%;
+                float: left;
+                padding: 12px;
+               
+            }
+            .card h6{
+              font-size:1rem;
+              font-family:arial;
+              text-align:center;
+              margin-left: 160px;
+              margin-top: 25px;
+             
+            }
+            .card h6:hover{
+              font-size:1.1rem;
+              font-family:arial;
+              text-align:center;
+              padding: 0px;
+                margin: 11px;
+              color:blue;
+            }
+            .card-img{
+              width:100%;
+              margin-left: 120px;
+              border-radius: 20px;
+            }
+            .card-img:hover{
+            transform: translateY(-0.3333333333rem);
+            
+             border-radius: 20px;
+            box-shadow: 0 0.5rem 2rem 0 rgb(33 40 50 / 25%)
+            }
+            .sec3{
+              overflow:hidden;
+              width:100%;
+            }
+            .sec3 h2{
+              font-size:1.4rem;
+              font-family:arial;
+              text-align: center;
+            }
+            .sec3 p{
+              font-size: 1.1rem;
+                font-weight: 400;	
+              font-family:arial;
+              text-align: center;
+                padding: 5px 220px;
+            }
+            .list-content{
+                width: 31.33%;
+                float: left;
+                padding: 20px;
+                margin-left: 20px;
+
+            }
+            .list-content .fa-arrow-right{
+              float:right;
+              color:#ccc;
+              font-size:10px;
+            }
+            .list-content h4{
+              font-family:'Roboto', Arial;
+              cursor:pointer;
+            }
+            .list-content ul{
+              padding: 0px;
+                margin: 0px;
+              box-shadow: 0 .15rem 1.75rem 0 rgba(33,40,50,.15);
+            }
+            .list-content .start-radius{
+              border-top-left-radius: 5px;
+                border-top-right-radius: 5px;
+            }
+            .list-content .end-radius{
+              border-bottom-left-radius: 5px;
+                border-bottom-right-radius: 5px;
+            }
+            .list-content a{
+              text-decoration:none;
+            }
+            .list-content li {
+                list-style: none;
+                padding: .5rem 1rem;
+                margin: 0px;
+              color: #212832;
+                background-color: #fff;
+                border: 1px solid rgba(0,0,0,.125);
+              font-family:'Roboto', Arial;
+            }
+            .list-content li:hover {
+                list-style: none;
+                padding: .5rem 1rem;
+                margin: 0px;
+                color: #212832;
+                background-color: #f2f6fc;
+                border: 1px solid rgba(0,0,0,.125);
+            }
+            .section{
+              width: 100%;
+              height: 100%;
+              background: #F2F6FC;
+            }
+            .able{
+              text-align: center;
+              background-color: #DAE7FB;
+              padding: 20px;
+              color: #79CBF9;
+              width: 120px;
+              margin-left: 620px;
+              margin-top: 350px;
+              border-radius: 50px;
+            }
+            .Examples{
+              margin-top: 40px;
+              color: #69707C;
+            }
+            .Build{
+              margin-left:50px;
+              font-size: 25px;
+              color: #69707C;
+              font-family:'Roboto', Arial;
+              margin-top: 50px;
+            }
+            .cost{
+              text-align: center;
+              background-color: #DAE7FB;
+              padding: 15px 25px;
+              color: #79CBF9;
+              width: 120px;
+              margin-left: 650px;
+              margin-top: 600px;
+              border-radius: 50px;
+            }
+            .Inner{
+              margin-top: 50px;
+              color: #212832;
+            }
+            .group{
+              color: #212832;
+            }
+            .sec4{
+              overflow:hidden !important;
+              width:100%;
+              margin-left: 20px;
+            }
+            .sec4 h2{
+              font-size:1.4rem;
+              font-family:arial;
+              text-align: center;
+            }
+            .sec4 p{
+              font-size: 1.1rem;
+              font-weight: 400;	
+              font-family:arial;
+              text-align: center;
+              padding: 5px 220px;
+
+            }
+            .card{
+              width: 25.33%;
+              float: left;
+              padding: 12px;
+               
+            }
+            .card h6{
+              font-size:1rem;
+              font-family:arial;
+              text-align:center;
+              margin-left: 160px;
+             
+            }
+            .card h6:hover{
+              font-size:1.1rem;
+              font-family:arial;
+              text-align:center;
+              padding: 0px;
+                margin: 11px;
+              color:blue;
+            }
+            .card-img{
+              width:100%;
+              margin-left: 120px;
+              border-radius: 20px;
+            }
+            .card-img:hover{
+            transform: translateY(-0.3333333333rem);
+            
+             border-radius: 20px;
+            box-shadow: 0 0.5rem 2rem 0 rgb(33 40 50 / 25%)
+            }
+            .tion{
+              text-align: center;
+              font-size: 30px;
+              margin-top: 60px;
+              color: #363D47;
+            }
+            .landing {
+              text-align: center;
+              margin-top: 20px;
+              color: #69707C;
+              font-family:'Roboto', Arial;
+            }
+            .tag1{
+             margin-left: 200px;
+              margin-top: 80px;
+              font-size: 80px;
+              color: #C5CCD6;
+            }
+            .Custom1{
+              margin-left: 150px;
+              color: #C5CCD6;
+              font-size: 16px;
+              margin-top: 20px;
+            }
+            .extended1{
+              margin-left: 80px; 
+              color: #6B7688;
+              font-size: 25px;
+              margin-top: 10px;
+            }
+            .tag2{
+              margin-left: 650px;
+               margin-top: -220px;
+               font-size: 80px;
+               color: #C5CCD6;
+             }
+             .Custom2{
+              margin-left: 600px;
+              color: #C5CCD6;
+               font-size: 16px;
+               margin-top: 20px;
+             }
+             .extended2{
+               color: #6B7688;
+               font-size: 25px;
+               margin-left: 550px;
+               margin-top: 10px;
+             }
+             .tag3{
+              margin-left: 1080px;
+              margin-top: -220px;
+               font-size: 80px;
+               color: #C5CCD6;
+             }
+             .Custom3{
+              margin-left: 1050px;
+              color: #C5CCD6;
+               font-size: 20px;
+               margin-top: 20px;
+             }
+             .extended3{
+              margin-left: 1020px;
+               color: #6B7688;
+               font-size: 22px;
+               margin-top: 10px;
+             }
+             .View1{
+              text-align: center;
+              background-color: #0B5ED7;
+              padding: 25px 22px;
+              color: #79CBF9;
+              margin-left: 620px;
+              overflow:hidden;
+              border-radius: 15px;
+              border: 1px solid transparent;
+              margin-top: 20px;
+              font-size: 20px;
+              font-style: italic;
+             }
+             .rain{
+              width: 100%;
+              height: 400px;
+              background-color: #F2F6FC;
+              margin-top: 30px;
+            }
+            .Cust{
+              background: #DAE7FB;
+              width: 150px;
+              height: 40px;
+              margin-left: 600px;
+              border-radius: 50px;
+              margin-top: 100px;
+              color: #0061f2 !important;
+              padding-top: 5px;
+              display: inline-block;
+              text-align: center;
+              white-space: nowrap;
+               vertical-align: baseline;
+          
+            }
+            .Header{
+              margin-left: 550px;
+              font-size: 30px;
+            }
+            .Demo1{
+              text-align: center;
+              margin-top: 80px;
+              margin-left: 150px;
+            }
+            .Demo2{
+              text-align: center;
+              margin-top: 100px;
+            }
+             .Demo3{
+             margin-left: 90px;
+              margin-top: 100px;
+            }
+            .Demo4{
+              text-align: center;
+              margin-top: 50px;
+              margin-left: 150px;
+            }
+            .Demo5{
+              text-align: center;
+              margin-top: 70px;
+            }
+            .Demo6{
+              margin-left: 90px;
+              margin-top: 70px;
+            }
+             .Demo7{
+              text-align: center;
+              margin-top: 53px;
+              margin-left: 150px;
+            }
+             .Demo8{
+              text-align: center;
+              margin-top: 80px;
+            }
+            .Demo9{
+              margin-left: 90px;
+              margin-top: 80px;
+            }
+            .dims{
+              margin-left: 650px;
+              margin-top: 100px;
+              padding: .5em 1em;
+              border-radius: 50rem !important;
+              background-color: #dae7fb !important;
+              color: #0061f2 !important;
+              margin-bottom: 1rem !important;
+              display: inline-block;
+              padding: .35em .65em;
+              font-size: .75em;
+              font-weight: 400;
+              line-height: 1;
+              color: #fff;
+              text-align: center;
+              white-space: nowrap;
+              vertical-align: baseline;  
+            }
+            .tion{
+              font-size: 30px;
+              margin-top: 80px;
+              color: #363D47;
+            }
+            .Company{
+              margin-top: 80px;
+            }
+            .land1{
+              width: 350px;
+              border-radius: 15px;
+            }
+            
+            .land2{
+              width: 350px;
+              border-radius: 15px;
+              margin-left: 400px;
+              margin-top: -240px;
+            }
+            .land3{
+              width: 350px;
+              border-radius: 15px;
+              margin-left: 800px;
+              margin-top: -240px;
+            }
+            .land4{
+              width: 350px;
+              border-radius: 15px;
+            }
+            .land5{
+              width: 350px;
+              border-radius: 15px;
+               margin-left: -260px;
+            }
+            .Careers{
+              margin-top: 40px;
+            }
+            .inner{
+              margin-top: 50;
+              margin-bottom: .5rem;
+              font-weight: 500;
+              line-height: 1.2;
+              color: #363d47;
+              text-align: center;
+               
+            }
+            .group{
+              text-align: center;
+              margin-top: 20px;
+              color: #69708B;
+            }
+            .tag{
+              text-align: center;
+              margin-top: 80px;
+              font-size: 80px;
+              color: #C5CCD6;
+            }
+            .Custom{
+              text-align: center;
+              color: #363D47;
+            }
+            .extended{
+              text-align: center;
+              color: #6B7688;
+            }
+            .View{
+            margin-left: 600px;
+            }
+          .sb{
+            color: #C5CCD6;
+            font-size: 30px;
+            margin-left: 120px;
+            padding: 60px 10px 0px;
+            font-family: Metropolis,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto;
+          }
+          .Build1{
+            color: #C5CCD6;
+            font-size: 28px;
+            margin-left: 80px;
+            font-family: Metropolis,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto;
+          }
+           .Instagram{
+            width: 60px;
+            margin-top: 3px;
+            color: #C5CCD6;
+            display: inline;
+            margin-left: 80px;
+            
+          }
+          .facebook{
+            width: 30px;
+            color: #C5CCD6;
+            margin-right: 10px;
+            margin-top: -12px;
+            
+          } 
+          .github{
+            width: 40px;
+            color: #C5CCD6;
+            margin-right: 12px;
+
+          }
+          .twiter{
+            width: 30px;
+            color: #C5CCD6;
+
+           
+          } 
+          .Pro{
+            color: #C5CCD6;
+            font-size: 25px;
+            margin-top: -120px;
+            margin-right: 420px;
+            text-decoration: none;
+            text-align: center;
+            list-style: none;
+            font-family: Metropolis,-apple-system,Arial,sans-serif,Apple Color Emoji;
+
+          }
+          .Lan{
+            color: #C5CCD6;
+            text-align: center;
+            margin-right: 420px;
+            padding: 5px;
+            font-size: 18px;
+            font-family: Metropolis,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif,Apple Color Emoji
+          }
+          .station{
+            color: #C5CCD6;
+            text-align: center;
+            margin-right: 50px;
+            padding: 5px;
+            font-size: 18px;
+            font-family: Metropolis,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif,Apple Color Emoji;
+          }
+          a{
+            text-decoration: none;
+            list-style: none;
+          }
+          .Includ{
+            color: #C5CCD6;
+            font-size: 30px;
+            margin-top: -180px;
+            margin-left: 450px;
+            text-decoration: none;
+            text-align: center;
+            list-style: none;
+            font-family: Metropolis,-apple-system,Arial,sans-serif,Apple Color Emoji;
+
+          }
+          .Util{
+            color: #C5CCD6;
+            text-align: center;
+            margin-left: 450px;
+            padding: 5px;
+            font-size: 18px;
+            font-family: Metropolis,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif,Apple Color Emoji;
+          }
+          .Tech{
+            color: #C5CCD6;
+            font-size: 25px;
+            margin-top: -200px;
+            margin-right: 50px;
+            text-decoration: none;
+            text-align: center;
+            list-style: none;
+            font-family: Metropolis,-apple-system,Arial,sans-serif,Apple Color Emoji;
+
+          }
+          .Legal{
+            color: #C5CCD6;
+            font-size: 30px;
+            margin-top: -270px;
+            margin-left: 850px;
+            text-decoration: none;
+            text-align: center;
+            list-style: none;
+            font-family: Metropolis,-apple-system,Arial,sans-serif,Apple Color Emoji;
+          }
+          .Terms{
+            color: #C5CCD6;
+            text-align: center;
+            margin-left: 850px;
+            padding: 5px;
+            font-size: 18px;
+            font-family: Metropolis,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif,Apple Color Emoji;
+          }
+          .br1{
+             margin-top: 150px;
+
+          }
+          .popy{
+            color: #C5CCD6;
+            margin-top: 20px;
+            padding-top: -50px;
+            margin-left: 160px;
+          }
+          .Privacy{
+            color: #C5CCD6;
+            margin-top: -15px;
+            margin-left: 1000px;
+          }
